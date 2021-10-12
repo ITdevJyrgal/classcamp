@@ -121,6 +121,7 @@ a, a:hover {
   border-radius: 8px;
   background: #fd7e14;
   color: #ffffff;
+  border: none;
 }
 #phone .rows--nav__img {
   margin-left: -80px;
@@ -356,7 +357,7 @@ a, a:hover {
 #trusted {
   background: #121118;
 }
-#trusted .row .best {
+#trusted .row--best {
   text-align: center;
   padding-top: 100px;
   margin-left: 402px;
@@ -365,7 +366,7 @@ a, a:hover {
   font-size: 61px;
   color: #FFFFFF;
 }
-#trusted .row .best--craft {
+#trusted .row--best__craft {
   text-align: center;
   margin-top: 100px;
   margin-left: 357px;
@@ -373,6 +374,37 @@ a, a:hover {
   height: 76px;
   font-size: 26px;
   color: rgba(255, 255, 255, 0.5);
+}
+#trusted .row--best__img-2 {
+  transition: 2s;
+}
+#trusted .row--best__img-2:hover {
+  transform: translateY(-200px);
+  opacity: 2;
+}
+#trusted .row--best__img-2 {
+  transform: translateY(0);
+  opacity: 0;
+}
+#trusted .row--best__craft3 {
+  margin: 0 10px;
+}
+#trusted .row--best__img-2 {
+  margin-top: -170px;
+}
+#trusted .row--best__img_2 {
+  color: #FFFFFF;
+  text-align: center;
+}
+#trusted .row--best__img_3 {
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 20px;
+}
+#trusted .row--best__img_4 {
+  color: #5c636a;
+  text-align: center;
+  margin-top: 10px;
 }
 
 #offer {
@@ -401,14 +433,17 @@ a, a:hover {
 }
 #offer .row--group__images {
   padding-left: 160px;
-  animation: __images 2s ease-in-out infinite;
+  animation: __images 4s ease-in-out infinite;
 }
 @keyframes __images {
   0% {
     opacity: 3;
   }
+  50% {
+    opacity: 0.3;
+  }
   100% {
-    opacity: 0;
+    opacity: 3;
   }
 }
 #offer .row--group__card {
@@ -441,21 +476,106 @@ a, a:hover {
   margin: 30px 399px;
   background: #fd7e14;
 }
-#offer .row--group__image {
+
+#featured {
+  background: #121118;
+  min-height: 60vh;
+}
+#featured .row--going {
   margin-left: -80px;
-  margin-top: -20px;
 }
-#offer .row--group__sit {
-  text-align: center;
-  justify-content: center;
+#featured .row--going__sit {
+  color: #FFFFFF;
+  margin-left: 200px;
   margin-top: -300px;
+  text-align: center;
 }
-#offer .row--group__sit2 {
-  font-size: 20px;
-  margin: 30px 0;
-  display: flex;
-  justify-content: center;
-  color: #e7e4e4;
+#featured .row--going__sit2 {
+  color: #e8e4e4;
+  text-align: center;
+  margin-left: 200px;
+}
+#featured .row--going__ob {
+  transition: 1s;
+}
+#featured .row--going__ob:hover {
+  opacity: 2;
+}
+#featured .row--going__ob {
+  opacity: 0;
+}
+
+#courses {
+  background: #121118;
+  padding-top: 130px;
+  min-height: 100vh;
+}
+#courses .row--clos {
+  color: #FFFFFF;
+}
+#courses .row--clos__nova {
+  color: #FFFFFF;
+  margin-top: -100px;
+  padding-left: 20px;
+}
+#courses .row--clos__le {
+  padding-top: 48px;
+}
+#courses .row--clos__youtube {
+  margin: 0 20px;
+}
+#courses .row--clos__subs {
+  color: #999fa4;
+  padding-left: 50px;
+  margin-top: -27px;
+}
+#courses .row--clos__square1 {
+  height: 426px;
+  width: 370px;
+  background: rgba(10, 184, 80, 0.84);
+  margin-top: -400px;
+  margin-left: 245px;
+  transition: 2s;
+}
+#courses .row--clos__square1:hover {
+  opacity: 1;
+}
+#courses .row--clos__square1 {
+  opacity: 0;
+}
+#courses .row--clos__week {
+  color: #17b775;
+  margin: 20px 40px;
+}
+#courses .row--clos__wild {
+  color: #FFFFFF;
+  margin: 20px 40px;
+}
+#courses .row--clos__style {
+  color: #5c636a;
+  margin: 20px 40px;
+}
+#courses .row--clos__pre {
+  margin: 50px 122px;
+  color: #FFFFFF;
+}
+
+#footer {
+  background: #000000;
+  padding-top: 150px;
+}
+#footer .row--footer__pro {
+  color: #FFFFFF;
+}
+#footer .row--footer__about {
+  color: #c2bcbc;
+  padding-top: 50px;
+}
+#footer .row--footer__abo {
+  margin: 20px 0;
+}
+#footer .row--footer__svg {
+  margin: 0 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
