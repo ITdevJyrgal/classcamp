@@ -5,6 +5,9 @@
         width: 205px;
         margin-left: 306px;
     }
+    #featured  .row--going__im{
+        width: 111%;
+    }
 
     #offer .row--group__card {
         width: 830px;
@@ -80,7 +83,10 @@
     #footer .row--footer__svg {
         margin: 0 6px;
     }
+#featured  .row--going__im{
+    width: 113%;
 
+}
     #shoot .row--title {
         padding-top: 342px;
     }
@@ -323,6 +329,30 @@
         padding-left: 18px;
         margin-left: -14px;
         display: flex;
+    }
+
+    #featured .row--going__sit2 {
+        color: #e8e4e4;
+        text-align: center;
+        margin-left: 40px;
+    }
+    #trusted .row--best {
+        margin-left: 103px;
+    }
+    #trusted .row--best__craft {
+        margin-left: 89px;
+    }
+    #featured .row--going__im {
+        width: 117%;
+        margin-top: 155px;
+    }
+
+    #featured .row--going__sit {
+        color: #FFFFFF;
+        margin-left: 37px;
+        margin-top: -186px;
+        text-align: center;
+        font-size: 26px;
     }
 
     #elements .row--elements__best {
@@ -596,6 +626,148 @@
         margin-top: -27px;
         font-size: 10px;
     }
+
+    #featured .row--going__im {
+        width: 100%;
+        margin-top: 60px;
+        margin-left: 84px;
+    }
+
+    #trusted .row--best {
+        margin-left: 88px;
+        font-size: 30px;
+        width: 356px;
+    }
+
+    #trusted .row--best__craft {
+        margin-left: 130px;
+        font-size: 15px;
+        width: 280px;
+    }
+
+    #offer .row--group__card {
+        margin-left: 11px;
+        width: 493px;
+    }
+
+
+    #offer .row--group__you {
+        display: flex;
+        justify-content: center;
+        color: #FFFFFF;
+        padding-top: 20px;
+        font-size: 31px;
+    }
+
+    #offer .row--group__and {
+        display: flex;
+        justify-content: center;
+        color: #37393b;
+        padding-top: 10px;
+        font-size: 15px;
+    }
+
+    #offer .row--group__btn_1 {
+        color: #FFFFFF;
+        background: #fd7e14;
+        width: 205px;
+        margin-left: 148px;
+    }
+
+    #courses .row--clos__data {
+        width: 130px;
+    }
+
+    #courses .row--clos__subs {
+        color: #999fa4;
+        padding-left: 50px;
+        margin-top: -17px;
+        font-size: 7px;
+    }
+
+    #courses .row--clos__square1 {
+        height: 237px;
+        width: 180px;
+        background: rgba(10, 184, 80, 0.84);
+        margin-top: -196px;
+        margin-left: 107px;
+        transition: 2s;
+    }
+
+    #courses .row--clos__week {
+        color: #17b775;
+        font-size: 10px;
+    }
+
+    #courses .row--clos__wild {
+        color: #FFFFFF;
+        margin: 20px 40px;
+        font-size: 10px;
+    }
+
+    #courses .row--clos__style {
+        color: #5c636a;
+        margin: 20px 40px;
+        font-size: 6px;
+    }
+
+    #courses .row--clos__pre {
+        margin: 41px 33px;
+        color: #FFFFFF;
+        font-size: 14px;
+    }
+
+    #footer .row--footer__class {
+        width: 93px;
+    }
+
+    #trusted .row--best__img_2 {
+        color: #FFFFFF;
+        /* opacity: 6; */
+        text-align: center;
+        font-size: 8px;
+    }
+
+    #trusted .row--best__img_3 {
+        color: #FFFFFF;
+        text-align: center;
+        margin-top: 20px;
+        font-size: 7px;
+    }
+
+    #featured .row--going__sit {
+        color: #FFFFFF;
+        margin-left: 15px;
+        margin-top: -121px;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    #featured .row--going__sit2 {
+        color: #e8e4e4;
+        text-align: center;
+        margin-left: 13px;
+    }
+
+    #trusted .row--best__img_4 {
+        color: #5c636a;
+        text-align: center;
+        margin-top: 10px;
+        font-size: 8px;
+    }
+
+    #footer .row--footer__pro {
+        color: #FFFFFF;
+        font-size: 12px;
+        margin-left: 15px;
+    }
+
+    #footer .row--footer__abo {
+        margin: 16px 3px;
+        font-size: 9px;
+        padding-top: -20px;
+    }
+
 }
 
 
