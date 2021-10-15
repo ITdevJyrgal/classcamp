@@ -1,10 +1,12 @@
-
 a, a:hover {
   text-decoration: none;
 }
 
-
 #header {
+  background: #fff;
+  position: fixed;
+  z-index: 4;
+  width: 100%;
 
   .nav {
     display: flex;
@@ -119,34 +121,22 @@ a, a:hover {
       }
     }
 
-    &--nav__batons {
-      animation: --nav__batons 1s ease-in-out alternate;
-    }
-
-    @keyframes --nav__batons {
-      0% {
-        opacity: 0;
-        transform: translateY(-500px);
-      }
-      50% {
-        background: #000000;
-      }
-      100% {
-        opacity: 2;
-        transform: translateY(0);
-      }
-    }
 
     &--nav__btn {
       margin-left: -50px;
       width: 281px;
       height: 66px;
       border-radius: 8px;
-      background: #fd7e14;
+      background: #FF4343;
       color: #ffffff;
       border: none;
     }
 
+    &--nav__btn:hover {
+      background: #000000;
+      color: #FFFFFF;
+      border: 3px solid #FF4343;
+    }
 
     &--nav__img {
       margin-left: -80px;
@@ -208,7 +198,7 @@ a, a:hover {
 
   .row {
     &--title {
-      padding: 280px 0;
+      padding-top: 100px;
 
       &__your {
         color: #ffffff;
@@ -237,27 +227,32 @@ a, a:hover {
   background: #121118;
 
   .row {
+    &--animation {
+      width: 70%;
+      height: 70%;
 
-    &--titles {
-      padding: 60px;
+      &__titles {
+        padding: 60px;
 
-      &__text {
-        color: #ffffff;
-        font-size: 58px;
-        line-height: 70px;
-      }
 
-      &__text2 {
-        padding: 30px 0;
-        color: #5c636a;
-        font-size: 27px;
-        line-height: 38px;
-      }
+        &__text {
+          color: #ffffff;
+          font-size: 58px;
+          line-height: 70px;
+        }
 
-      &__text3 {
-        color: #ffffff;
-        font-size: 30px;
-        line-height: 45px;
+        &__text2 {
+          padding: 30px 0;
+          color: #5c636a;
+          font-size: 27px;
+          line-height: 38px;
+        }
+
+        &__text3 {
+          color: #ffffff;
+          font-size: 30px;
+          line-height: 45px;
+        }
       }
     }
   }
@@ -481,6 +476,7 @@ a, a:hover {
 
       &__craft3 {
         margin: 0 10px;
+        box-shadow: 0 63px 64px rgba(9, 8, 8, 0.99);
       }
 
       &__img-2 {
@@ -563,6 +559,7 @@ a, a:hover {
         height: 300px;
         background: #5c636a;
         border-radius: 20px;
+
       }
 
       &__you {
@@ -586,9 +583,21 @@ a, a:hover {
       &__btn_1 {
         color: #FFFFFF;
         margin: 30px 399px;
-        background: #fd7e14;
+        background: #FF4343;
+        border-radius: 10px;
+        width: 180px;
+        height: 40px;
+        border: none;
       }
 
+      &__btn_1:hover {
+        background: #000;
+        border: 2px solid #FF4343;
+      }
+
+      &__png {
+        width: 14%;
+      }
 
     }
   }
