@@ -553,8 +553,7 @@
         height: 268px;
         margin-top: 30px;
         z-index: 8;
-        transform: translate3d(0px, 0px, 0px) rotateZ(
-                0deg) scale(1);
+
     }
 
     #share .slide {
