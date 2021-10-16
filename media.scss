@@ -71,8 +71,12 @@
     margin-top: 598px;
     margin-left: -100px;
   }
+
 }
+
+
 @media (max-width: 1024px) {
+
   #offer .row--group__images {
     padding-left: 1px;
   }
@@ -83,6 +87,7 @@
 
   #featured .row--going__im {
     width: 113%;
+
   }
 
   #shoot .row--title {
@@ -109,6 +114,7 @@
     opacity: 0;
     margin-left: 149px;
   }
+
 
   #courses .row--clos__le {
     padding-top: 142px;
@@ -185,6 +191,8 @@
     width: 90%;
   }
 }
+
+
 @media (max-width: 992px) {
   #phone .rows--nav__items {
     color: #5c636a;
@@ -222,6 +230,8 @@
     /* padding-top: 696px; */
   }
 }
+
+
 @media (max-width: 768px) {
   #header .nav--logo__camp {
     font-size: 20px;
@@ -458,7 +468,10 @@
     margin: 23px 12px;
   }
 }
+
+
 @media (max-width: 576px) {
+
   #header .nav--logo__camp {
     font-size: 18px;
   }
@@ -513,6 +526,7 @@
   #enrich .row--animation__rec2 {
     width: 52%;
   }
+
 
   #enrich .row--animation__titles__text {
     font-size: 20px;
@@ -575,6 +589,7 @@
     height: 268px;
     margin-top: 30px;
     z-index: 8;
+
   }
 
   #share .slide {
@@ -640,6 +655,7 @@
     margin-left: 11px;
     width: 493px;
   }
+
 
   #offer .row--group__you {
     display: flex;
@@ -757,7 +773,10 @@
     font-size: 9px;
     padding-top: -20px;
   }
+
 }
+
+
 @media (max-width: 412px) {
   #header .nav--logo__camp {
     font-size: 11px;
@@ -875,6 +894,7 @@
     border-radius: 10px;
     padding-top: 2px;
     margin-top: -4px;
+
   }
 
   #elements .row .best--user__finish {
@@ -1091,46 +1111,42 @@
     margin: 1px 3px;
     width: 21%;
   }
+
 }
+
+
 @media (max-width: 376px) {
   #elements .row .best--user {
     width: 220px;
   }
-
   #trusted .row--best__craft3 {
     width: 52px;
     height: 210px;
   }
-
   #trusted .row--best__img-2 {
     margin-top: -135px;
   }
-
   #offer .row--group__card {
     margin-left: 11px;
     width: 349px;
     height: 180px;
   }
-
   #offer .row--group__btn_1 {
     color: #FFFFFF;
     background: #fd7e14;
     width: 113px;
     margin-left: 117px;
   }
-
   #trusted .row--best {
     margin-left: 4px;
     font-size: 17px;
     width: 356px;
   }
-
   #trusted .row--best__craft {
     margin-left: 43px;
     font-size: 10px;
     width: 280px;
   }
-
   #share .start--with {
     width: 222px;
     font-size: 8px;
@@ -1138,7 +1154,6 @@
     margin-left: -4px;
     padding-top: 100px;
   }
-
   #share .start--with--shoot {
     margin-top: 20px;
     width: 144px;
@@ -1146,54 +1161,49 @@
     text-align: center;
     margin-left: 6px;
   }
+
 }
+
+
 @media (max-width: 320px) {
   #header .nav--logo__camp {
     font-size: 10px;
     margin-left: -6px;
   }
-
   #header .nav--items__item {
     text-decoration: none;
     color: #000000;
     font-size: 6px;
     margin-top: -6px;
   }
-
   #header .nav--btn__item {
     font-size: 8px;
     margin-left: -8px;
   }
-
   #shoot .row--img__imgs {
     padding-left: 234px;
     margin-left: -64px;
     width: 114%;
     padding-top: 398px;
   }
-
   #phone .rows--nav__tel {
     width: 26%;
     margin-left: -90px;
   }
-
   #phone .rows--navs__tel {
     width: 76%;
     margin-left: 0;
   }
-
   #shoot .row--title__your {
     color: #ffffff;
     font-size: 15px;
     margin-top: -96px;
   }
-
   #shoot .row--title__yours {
     color: #5c636a;
     font-size: 8px;
     padding: 20px 0;
   }
-
   #enrich .row--animation__titles__text {
     font-size: 9px;
     line-height: 16px;
@@ -1201,7 +1211,6 @@
     margin-left: 22px;
     width: 97px;
   }
-
   #enrich .row--animation__titles__text2 {
     padding: 4px 0;
     color: #5c636a;
@@ -1210,27 +1219,22 @@
     margin-left: 21px;
     line-height: 10px;
   }
-
   #elements .row--elements__best2 {
     color: #5c636a;
     font-size: 6px;
     line-height: 12px;
   }
-
   #elements .row--elements__best3 {
     color: #ffffff;
     font-size: 7px;
   }
-
   #elements .row .best {
     margin-left: -50px;
     width: 195px;
   }
-
   #elements .row .best--user {
     width: 191px;
   }
-
   #elements .row .best--user .square {
     width: 33px;
     height: 22px;
@@ -1238,7 +1242,6 @@
     margin-left: 111px;
     margin-top: -32px;
   }
-
   #share .start--with {
     width: 105px;
     font-size: 7px;
@@ -1246,7 +1249,6 @@
     margin-left: 23px;
     padding-top: 100px;
   }
-
   #share .start--with--shoot {
     margin-top: 20px;
     width: 105px;
@@ -1254,7 +1256,6 @@
     text-align: center;
     margin-left: 29px;
   }
-
   #trusted .row--best {
     margin-left: -22px;
     font-size: 15px;
@@ -1266,34 +1267,28 @@
     font-size: 8px;
     width: 280px;
   }
-
   #trusted .row--best__craft3 {
     width: 42px;
     height: 150px;
   }
-
   #offer .row--group__card {
     margin-left: 11px;
     width: 279px;
     height: 180px;
   }
-
   #offer .row--group__btn_1 {
     color: #FFFFFF;
     background: #fd7e14;
     width: 113px;
     margin-left: 84px;
   }
-
   #footer .row--footer__svg {
     margin: 1px 2px;
     width: 20%;
   }
-
   #courses .row--clos__data {
     width: 70px;
   }
-
   #courses .row--clos__square1 {
     height: 124px;
     width: 54px;
@@ -1302,7 +1297,6 @@
     margin-left: 70px;
     transition: 2s;
   }
-
   #courses .row--clos__week {
     color: #17b775;
     font-size: 4px;
@@ -1316,19 +1310,18 @@
     font-size: 6px;
     width: 48px;
   }
-
   #courses .row--clos__style {
     color: #5c636a;
     margin: 0 1px;
     width: 46px;
     font-size: 3px;
   }
-
   #courses .row--clos__pre {
     margin: 7px 6px;
     color: #FFFFFF;
     font-size: 4px;
   }
+
+
 }
 
-/*# sourceMappingURL=media.css.map */
