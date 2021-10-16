@@ -5,7 +5,8 @@
         width: 205px;
         margin-left: 306px;
     }
-    #featured  .row--going__im{
+
+    #featured .row--going__im {
         width: 111%;
     }
 
@@ -83,10 +84,12 @@
     #footer .row--footer__svg {
         margin: 0 6px;
     }
-#featured  .row--going__im{
-    width: 113%;
 
-}
+    #featured .row--going__im {
+        width: 113%;
+
+    }
+
     #shoot .row--title {
         padding-top: 342px;
     }
@@ -336,12 +339,15 @@
         text-align: center;
         margin-left: 40px;
     }
+
     #trusted .row--best {
         margin-left: 103px;
     }
+
     #trusted .row--best__craft {
         margin-left: 89px;
     }
+
     #featured .row--going__im {
         width: 117%;
         margin-top: 155px;
@@ -771,12 +777,390 @@
 }
 
 
-@media (max-width: 415px) {
+@media (max-width: 412px) {
+    #header .nav--logo__camp {
+        font-size: 11px;
+        margin-left: -10px;
+    }
+
+    #header .nav--items__item {
+        margin: 0 8px;
+        text-decoration: none;
+        color: #000000;
+        font-size: 9px;
+    }
+
+    #header .nav--btn__items {
+        font-size: 8px;
+    }
+
+    #header .nav--btn__item {
+        font-size: 8px;
+    }
+
+    #phone .rows--nav__item {
+        font-size: 20px;
+    }
+
+    #phone .rows--nav__items {
+        font-size: 10px;
+    }
+
+    #phone .rows--nav__btn {
+        margin-left: -50px;
+        width: 109px;
+        height: 33px;
+        font-size: 10px;
+    }
+
+    #phone .rows--nav__here {
+        padding: 20px 0;
+        font-size: 13px;
+    }
+
+    #phone .rows--navs__tel {
+        width: 76%;
+        margin-left: -83px;
+    }
+
+    #shoot .row--title__your {
+        color: #ffffff;
+        font-size: 20px;
+        margin-top: -96px;
+    }
+
+    #shoot .row--title__yours {
+        color: #5c636a;
+        font-size: 9px;
+        padding: 20px 0;
+    }
+
+    #shoot .row--img__imgs {
+        padding-left: 234px;
+        margin-left: -48px;
+        width: 102%;
+        padding-top: 374px;
+    }
+
+    #shoot .row--img__img {
+        margin-top: 413px;
+        margin-left: 95px;
+        width: 51%;
+    }
+
+    #enrich .row--animation__titles__text {
+        font-size: 12px;
+        line-height: 21px;
+        margin-top: 66px;
+    }
+
+    #enrich .row--animation__titles__text2 {
+        padding: 4px 26px;
+        color: #5c636a;
+        font-size: 8px;
+        margin-left: 34px;
+        line-height: 10px;
+    }
+
+    #elements .row--elements__best {
+        color: #ffffff;
+        font-size: 11px;
+        line-height: 10px;
+    }
+
+    #elements .row--elements__best2 {
+        color: #5c636a;
+        font-size: 7px;
+        line-height: 12px;
+    }
+
+    #elements .row--elements__best3 {
+        color: #ffffff;
+        font-size: 8px;
+    }
+
+    #elements .row .best {
+        margin-left: -50px;
+        width: 231px;
+        height: 160px;
+        background: rgba(185, 185, 185, 0.11);
+        border-radius: 30px;
+    }
+
+    #elements .row .best--user {
+        width: 226px;
+        height: 45px;
+        background: rgba(0, 0, 0, 0.37);
+        border-radius: 10px;
+        padding-top: 2px;
+        margin-top: -4px;
+
+    }
+
+    #elements .row .best--user__finish {
+        color: #ffffff;
+        font-size: 8px;
+        padding-left: 10px;
+    }
+
+    #elements .row .best--user__finishs {
+        color: #5c636a;
+        font-size: 5px;
+        padding-left: 10px;
+    }
+
+    #elements .row .best--user .square {
+        width: 33px;
+        height: 22px;
+        background: #fd7e14;
+        border-radius: 20px;
+        margin-left: 139px;
+        margin-top: -32px;
+    }
+
+    #share .slide {
+        width: 215px;
+    }
+
+    #share .btnn1 {
+        margin-left: -17px;
+        margin-top: 10px;
+        width: 216px;
+        height: 40px;
+        border: none;
+        border-radius: 10px;
+    }
+
+    #share .did {
+        color: #fff;
+        opacity: 0;
+        font-size: 10px;
+    }
+
+    #share .start--with--shoot {
+        margin-top: 20px;
+        width: 229px;
+        font-size: 10px;
+        text-align: center;
+        margin-left: -30px;
+    }
+
+    #trusted .row--best {
+        margin-left: 20px;
+        font-size: 17px;
+        width: 356px;
+    }
+
+    #trusted .row--best__craft {
+        margin-left: 61px;
+        font-size: 10px;
+        width: 280px;
+    }
+
+    #trusted .row--best__craft3 {
+        width: 58px;
+        height: 210px;
+    }
+
+    #offer .row--group__courses {
+        padding-top: 100px;
+        color: #8BFFB0;
+        display: flex;
+        justify-content: center;
+        font-size: 9px;
+    }
+
+    #offer .row--group__courses2 {
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    #offer .row--group__courses3 {
+        color: #5c636a;
+        font-size: 8px;
+        line-height: 20px;
+    }
+
+    #offer .row--group__card {
+        margin-left: 11px;
+        width: 374px;
+        height: 180px;
+    }
+
+    #offer .row--group__you {
+        display: flex;
+        justify-content: center;
+        color: #FFFFFF;
+        font-size: 20px;
+    }
+
+    #offer .row--group__and {
+        display: flex;
+        justify-content: center;
+        color: #37393b;
+        padding-top: 0;
+        margin-top: -32px;
+        font-size: 8px;
+    }
+
+    #offer .row--group__btn_1 {
+        color: #FFFFFF;
+        background: #fd7e14;
+        width: 113px;
+        margin-left: 133px;
+        font-size: 10px;
+        margin-top: -20px;
+    }
+
+    #featured .row--going__sit {
+        color: #FFFFFF;
+        margin-left: 15px;
+        margin-top: -89px;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    #courses .row--clos {
+        color: #FFFFFF;
+        font-size: 19px;
+    }
+
+    #courses .row--clos__data {
+        width: 85px;
+    }
+
+    #courses .row--clos__nova {
+        color: #FFFFFF;
+        margin-top: -56px;
+        padding-left: 11px;
+        font-size: 5px;
+    }
+
+    #courses .row--clos__youtube {
+        margin: 0 7px;
+    }
+
+    #courses .row--clos__subs {
+        color: #999fa4;
+        padding-left: 29px;
+        margin-top: -15px;
+        font-size: 5px;
+    }
+
+    #courses .row--clos__square1 {
+        height: 157px;
+        width: 101px;
+        background: rgba(10, 184, 80, 0.84);
+        margin-top: -151px;
+        margin-left: 84px;
+        transition: 2s;
+    }
+
+    #courses .row--clos__week {
+        color: #17b775;
+        font-size: 4px;
+        width: 82px;
+        margin-left: 11px;
+    }
+
+    #courses .row--clos__wild {
+        color: #FFFFFF;
+        margin: 8px 24px;
+        font-size: 6px;
+        width: 79px;
+    }
+
+    #courses .row--clos__style {
+        color: #5c636a;
+        margin: 20px 1px;
+        width: 100px;
+        font-size: 5px;
+    }
+
+    #courses .row--clos__pre {
+        margin: 21px 17px;
+        color: #FFFFFF;
+        font-size: 7px;
+    }
+
+    #footer .row--footer__class {
+        width: 70px;
+    }
+
+    #footer .row--footer__pro {
+        color: #FFFFFF;
+        font-size: 8px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    #footer .row--footer__about {
+        color: #c2bcbc;
+        padding-top: 0;
+        margin-left: 17px;
+    }
+
+    #footer .row--footer__abo {
+        margin: 16px 3px;
+        font-size: 5px;
+    }
+
+    #footer .row--footer__svg {
+        margin: 1px 3px;
+        width: 21%;
+    }
 
 }
 
 
 @media (max-width: 376px) {
+    #elements .row .best--user {
+        width: 220px;
+    }
+    #trusted .row--best__craft3 {
+        width: 52px;
+        height: 210px;
+    }
+    #trusted .row--best__img-2 {
+        margin-top: -135px;
+    }
+    #offer .row--group__card {
+        margin-left: 11px;
+        width: 349px;
+        height: 180px;
+    }
+    #offer .row--group__btn_1 {
+        color: #FFFFFF;
+        background: #fd7e14;
+        width: 113px;
+        margin-left: 117px;
+    }
+    #trusted .row--best {
+        margin-left: 4px;
+        font-size: 17px;
+        width: 356px;
+    }
+    #trusted .row--best__craft {
+        margin-left: 43px;
+        font-size: 10px;
+        width: 280px;
+    }
+    #share .start--with {
+        width: 222px;
+        font-size: 8px;
+        color: #FFFFFF;
+        margin-left: -4px;
+        padding-top: 100px;
+    }
+    #share .start--with--shoot {
+        margin-top: 20px;
+        width: 144px;
+        font-size: 6px;
+        text-align: center;
+        margin-left: 6px;
+    }
 
 }
 
