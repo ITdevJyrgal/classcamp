@@ -47,7 +47,7 @@ a, a:hover {
   height: 52px;
 }
 #header .nav--btn__items:hover {
-  border: 3px solid #fd7e14;
+  border: 2px solid #fd7e14;
   color: #fd7e14;
 }
 #header .nav--btn__item {
@@ -60,7 +60,7 @@ a, a:hover {
 #header .nav--btn__item:hover {
   background: #000;
   color: #fd7e14;
-  border: 3px solid #fd7e14;
+  border: 2px solid #fd7e14;
 }
 
 #phone {
@@ -388,7 +388,7 @@ a, a:hover {
 }
 #trusted .row--best__craft3 {
   margin: 0 10px;
-  box-shadow: 0 63px 64px rgba(9, 8, 8, 0.99);
+  box-shadow: 0 100px 164px rgba(7, 248, 75, 0.99);
 }
 #trusted .row--best__img-2 {
   margin-top: -170px;
@@ -550,10 +550,10 @@ a, a:hover {
   transition: 2s;
 }
 #courses .row--clos__square1:hover {
-  opacity: 1;
+  opacity: 2;
 }
 #courses .row--clos__square1 {
-  opacity: 0;
+  opacity: 0.1;
 }
 #courses .row--clos__week {
   color: #17b775;
